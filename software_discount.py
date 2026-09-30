@@ -1,4 +1,4 @@
-Software_package= 99
+Software_unit_cost= 99
 Unit= int(input("Enter a unit: "))
 if(Unit>=100):
     print("50%")
@@ -16,9 +16,7 @@ if(Unit>=10):
     print("20%")
 if(Unit<=9):
     print("No discount")
-10%= .10
-20%= .20
-30%= .30
-40%= .40
-50%= .50
-Sales= (Unit*Software_package*)
+Original_cost=(Software_unit_cost*Unit)
+Discount_amount= (Original_cost*discount_rate)
+Final_cost = Original_cost-Discount_amount
+
